@@ -9,6 +9,7 @@ const CardSong = (props:{url:string,title:string}):JSX.Element =>{
                     src={props.url}
                     alt="Álbum Inner Desire By Glowing Phoenix"
                     fill={true}
+                    loading="lazy"
                     className="object-contain"
                 />
             </div>
