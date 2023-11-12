@@ -23,14 +23,14 @@ const SectionMusica = ():JSX.Element => {
                 </div>
             </div>
             <div className="relative container-canciones w-[100%] h-[54%] md:h-[95%] md:w-[46%] md:ml-1 md:mr-1">
-                <div className="title w-[100%] text-[24px] text-[#ff3d00] mt-2 md:mt-6 flex justify-center items-center">
+                <div className="title w-[100%] text-[32px] text-[#ff3d00] mt-2 md:mt-6 flex justify-center items-center">
                     <h2>SOBRE INNER DESIRE</h2>
                 </div>
-                <div className="text-inner text-white text-[18px] md:text-[20px] p-2">
+                <div className="text-inner text-white md:w-[100%] md:ml-0 w-[90%] ml-[5%] text-[18px] md:text-[20px] text-center p-2">
                     <p>
-                        Inner Desire es un álbum en proceso de grabación que cuenta con 7 hits musicales que
-                        incluyen en sus letras temas tales como la libertad y la búsqueda 
-                        constante de cumplir sueños y metas
+                        Inner Desire es un álbum en proceso de grabación, que cuenta con 7 hits musicales.
+                        Sus letras abordan temas tales como la libertad y la búsqueda 
+                        constante de cumplir sueños y metas.
                     </p>
                 </div>
                 <div className=" absolute bottom-[30px]  canciones w-[100%]">

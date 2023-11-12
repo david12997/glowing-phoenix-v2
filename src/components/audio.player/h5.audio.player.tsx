@@ -287,11 +287,11 @@ const H5AudioPlayer = () => {
               <span className="mr-1">
                 <MusicNote />{' '}
               </span>{' '}
-              My Own Deamon
+              My Own Demon
             </h3>
           </div>
           <div className="info-ambum text-white mt-[-4px]">
-            <p className="text-[12px] stroke-black">Ábum</p>
+            <p className="text-[12px] stroke-black">Álbum</p>
             <h3 className="text-[18px] stroke-black">Inner Desire</h3>
           </div>
         </div>
@@ -314,7 +314,7 @@ const H5AudioPlayer = () => {
               <span className="mr-1">
                 <MusicNote />{' '}
               </span>{' '}
-              My Own Deamon
+              My Own Demon
             </h3>
           </div>
           <div className="info-ambum text-white">

@@ -56,3 +56,11 @@ body {
 .rhap_volume-button{
   color: rgb(241, 241, 241) !important;
 }
+
+.text-stroke-half-px {
+  -webkit-text-stroke: 0.6px black;
+}
+
+.text-shadow {
+  text-shadow: 2px 3px 5px black;
+}
