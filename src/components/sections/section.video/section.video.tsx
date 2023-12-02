@@ -21,6 +21,7 @@ const SectionVideoOficial = ():JSX.Element => {
 
                 <div className="desktop-video hidden  w-[100%] md:flex">
                     <iframe className="w-[70%] h-[73vh] "
+                        loading="lazy"
                         width="100%" 
                         height="100%" 
                         src="https://www.youtube.com/embed/URSS6yOqRi0?si=iy040BTwPhmal2u6" 
@@ -88,6 +89,7 @@ const SectionVideoOficial = ():JSX.Element => {
 
                 <div className="relative mobile-video block md:hidden">
                     <iframe className="h-[300px] w-[100%]]" 
+                        loading="lazy"
                         width="100%" 
                         height="100%"
                         src="https://www.youtube.com/embed/URSS6yOqRi0?si=iy040BTwPhmal2u6" 
@@ -100,50 +102,53 @@ const SectionVideoOficial = ():JSX.Element => {
                             LETRA MY OWN DEMON
                         </div>
                         <p className="text-white mt-6 mb-6 text-[18px]">
-                            ESTROFA 1<br/>
-                            Now I feel so lost                                               
-                            I only have myself                                                  
-                            Destroying all your pain                                         
-                            Burning uncontrolled.                                             
+                            <span className="text-[#ff3d00]">ESTROFA 1</span><br/>
+                            Now I feel so lost <br/>                                              
+                            I only have myself <br/>                                            
+                            Destroying all your pain <br/>                                         
+                            Burning uncontrolled.                                          
                         </p>
                         <p className="text-white mt-6 mb-6 text-[18px]">
-                            ESTROFA 2<br/>
-                            This road is rough and hard                                               
-                            The obstacles? endless                                         
-                            The stars refues to shine                                         
-                            I'll follow my own ways                                         
+                            <span className="text-[#ff3d00]">ESTROFA 2</span><br/>
+                            This road is rough and hard  <br/>                                              
+                            The obstacles? endless    <br/>                                      
+                            The stars refues to shine   <br/>                                       
+                            I'll follow my own ways    <br/>                                          
                         </p>
                         <p className="text-white mt-6 mb-6 text-[18px]">
-                            CORO<br/>
+                            <span className="text-[#ff3d00]">CORO</span><br/>
                             You will be in hell “fucking naked”.                                               
-                            Releasing your “worst demon”.                                      
-                            Ohh ohh ohh ohh ohh  “break free it”.                                       
-                            Ohh ohh ohh ohh ohh  “run free”. 
-                            We'll all be in hell “everyone”.     
-                            Releasing our “own demon”.  
-                            This is for all of you  “break free it”.   
-                            “Run free”                           
+                            Releasing your “worst demon”.     <br/>                                  
+                            Ohh ohh ohh ohh ohh  “break it free”.  <br/>                                      
+                            Ohh ohh ohh ohh ohh  “run free”. <br/> 
+                            We'll all be in hell “everyone”. <br/>     
+                            Releasing our “own demon”.  <br/> 
+                            This is for all of you  “Ohh ohh ohh ohh ohh”. <br/> 
+                            “Run free”                                
                         </p>
                         <p className="text-white mt-6 mb-6 text-[18px]">
-                            ESTROFA 3<br/>
+                        <span className="text-[#ff3d00]">ESTROFA 3</span><br/>
                             Dreams seem to end       
                             Obsession is killing me  
                             Oh God I've been blinded            
                             I'm already losing my mind. 
                         </p>
                         <p className="text-white mt-6 mb-6 text-[18px]">
-                            ESTROFA 4<br/>
-                            Fears are my demons       
-                            Fighting all the time 
-                            My tears are my demons            
-                            False images to my mind. 
+                        <span className="text-[#ff3d00]">ESTROFA 4</span><br/>
+                            Fears are my demons       <br/>
+                            Fighting all the time <br/>
+                            My tears are my demons     <br/>       
+                            False images to my mind. <br/> 
                         </p>
                         <p className="text-white mt-6 mb-6 text-[18px]">
-                            BRAKE DOWN<br/>
-                            “We've” been mistreated conspiracies       
-                            go and come, far away.<br></br> 
-                            “Raping” our souls suffering by the lies            
-                            What 's going on?  
+                            <span className="text-[#ff3d00]">BREAKDOWN</span><br/>
+                            “We've” been mistreated <br/>
+                            Conspiracies  <br/>    
+                            Go and come, far away.<br></br> 
+                            “Raping” our souls <br/>
+                            Suffering <br/>
+                            By the lies <br/>            
+                            What 's going on?    
                         </p>
                     </div>
                 </div>

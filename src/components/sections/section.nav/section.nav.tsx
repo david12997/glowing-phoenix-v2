@@ -8,9 +8,10 @@ import { useEffect, useState } from "react";
 const SectionNav = (): JSX.Element => {
   const OptionsNav: string[] = [
     "Inicio",
+    "Estrenos",
+    "Galeria",
     "Música",
     "Eventos",
-    "Galeria",
     "Contacto",
   ];
 
@@ -94,7 +95,7 @@ const SectionNav = (): JSX.Element => {
                 <a
                   href={`#${option}`}
                   key={index}
-                  className="text-stroke-3 text-[20px] text-white cursor-pointer"
+                  className="text-stroke-3 text-[20px] text-white cursor-pointer ml-1 mr-1"
                   onClick={handleNavClick}
                 >
                   {option}

@@ -15,8 +15,8 @@ const SectionEventos = ():JSX.Element => {
 
             <div className="container-img overflow-y-hidden flex items-center justify-start w-[100%] h-[400px] md:h-[590px] md:w-[90%] md:mt-[60px] md:ml-[5%] overflow-x-scroll">
 
-                <CardEvento src="https://cms.glowingphoenix.co/glowing-banda/assets/c7ad2vg9dlskkk40" 
-                    fecha="24 de Noviembre de 2023"
+                <CardEvento src="https://cms.glowingphoenix.co/glowing-banda/assets/e1oy19zlufk8ogss" 
+                    fecha="Por confirmar fecha"
                 />
             
 

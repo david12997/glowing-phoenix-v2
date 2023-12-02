@@ -8,7 +8,7 @@ const CardEvento = (props:{src:string,fecha:string}):JSX.Element=>{
                 {props.fecha}
             </div>
             <div className="absolute text-[17px] text-white top-[-40px]">
-                No te lo pierdas
+                --------------------------
             </div>
             <Image
                 src={props.src}

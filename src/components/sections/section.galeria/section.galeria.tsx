@@ -1,7 +1,15 @@
 import Image from "next/image"
 import CardImgGaleria from "../../cards/card.img.galeria/card.img.galeria"
 
-const SectionGaleria = () => {
+export interface SectionGaleriaProps {
+
+    images1: string[],
+    images2: string[],
+    titulo: string,
+    descripcion: string
+}
+
+const SectionGaleria = (props:SectionGaleriaProps) => {
 
     return<>
         <section  id="Galeria" className="w-screen h-[900px] md:h-[1100px]  bg-[#202020] pt-2 p-2">
@@ -11,48 +19,27 @@ const SectionGaleria = () => {
             </div>
 
             <div className="flex items-center container-galeria-1 w-[100%] md:w-[94%] md:ml-[3%] h-[340px] md:h-[450px]  overflow-x-scroll mb-4">
-
-                <CardImgGaleria
-                    url="https://cms.glowingphoenix.co/glowing-banda/assets/8k2uyysxfvcwcsow"
-                />
-                <CardImgGaleria
-                    url="https://cms.glowingphoenix.co/glowing-banda/assets/16x4tahjq51c0o0k"
-                />
-                <CardImgGaleria
-                    url="https://cms.glowingphoenix.co/glowing-banda/assets/d1kna9tbi1sg0okg"
-                />
-                <CardImgGaleria
-                    url="https://cms.glowingphoenix.co/glowing-banda/assets/dxtskg1hr0g00ksg"
-                />
-                <CardImgGaleria
-                    url="https://cms.glowingphoenix.co/glowing-banda/assets/ic293qyrntkckw48"
-                />
-                <CardImgGaleria
-                    url="https://cms.glowingphoenix.co/glowing-banda/assets/cbc83v7rrvccwg8w"
-                />
+                {
+                    props.images1.map((item:string,index:number) => {
+                        return <CardImgGaleria
+                            key={index}
+                            url={item}
+                        />
+                    })
+                }
 
                 
 
             </div>
             <div className="flex items-center container-galeria-2 w-[100%] md:w-[94%] md:ml-[3%] h-[340px] md:h-[450px] overflow-x-scroll mt-4">
-                <CardImgGaleria
-                    url="https://cms.glowingphoenix.co/glowing-banda/assets/h15jqchw3r400gk4"
-                />
-                <CardImgGaleria
-                    url="https://cms.glowingphoenix.co/glowing-banda/assets/cqsittbca5ss80gw"
-                />
-                <CardImgGaleria
-                    url="https://cms.glowingphoenix.co/glowing-banda/assets/2aqwqlybtmsk88wg"
-                />
-                <CardImgGaleria
-                    url="https://cms.glowingphoenix.co/glowing-banda/assets/dxtskg1hr0g00ksg"
-                />
-                <CardImgGaleria
-                    url="https://cms.glowingphoenix.co/glowing-banda/assets/8k2uyysxfvcwcsow"
-                />
-                <CardImgGaleria
-                    url="https://cms.glowingphoenix.co/glowing-banda/assets/n8azm765m00gcssg"
-                />
+                {
+                    props.images2.map((item:string,index:number) => {
+                        return <CardImgGaleria
+                            key={index}
+                            url={item}
+                        />
+                    })
+                }
             </div>
 
         </section>
